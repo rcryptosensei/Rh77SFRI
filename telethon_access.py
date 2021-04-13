@@ -59,5 +59,5 @@ async def wakeup(event):
     print(text)
 
 client.start()
-#save_session(client, session)
+save_session(client, session)
 client.run_until_disconnected()
